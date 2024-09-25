@@ -129,7 +129,7 @@ def parseOptions(argv):
         o.to = []
     else:
         o.recipientsFromHeaders = False
-        o.exludeAddresses = []
+        o.excludeAddresses = []
 
     requiredHeaders = {
         "from": [],
